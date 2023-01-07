@@ -1,0 +1,108 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0 0;
+    color: #03045E;
+}
+
+nav {
+    display: none;
+    padding-top: 10px;
+    height: 75px;
+    background-color: cornflowerblue;
+}
+
+nav div {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+input {
+    margin: 0 auto;
+}
+
+.nav-item {
+    margin: 0 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.box {
+    display: none;
+    width: 875px;
+    height: 500px;
+    margin: 15px auto;
+}
+
+#sign-in-box {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+#register-box {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    background-color: darkgoldenrod;
+    border-radius: 5px;
+}
+
+#next {
+    float: right;
+}
+
+table { 
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+th {
+    width: 50px;
+    height: 25px;
+}
+
+td {
+    border: 1px solid #a9a9a9;
+    background-color: #808080;
+    border-radius: 5px;
+}
+
+.in-month {
+    background-color: #a9a9a9;
+}
+
+.pop-up-box {
+    display: none;
+    background-color: antiquewhite;
+    opacity: 85%;
+    width: 500px;
+    height: 325px;
+    border-radius: 2.5px;
+    position: absolute;
+    top: 265px;
+    left: 400px;
+    padding: 10px;
+}
+
+.event {
+    font-size: x-small;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
